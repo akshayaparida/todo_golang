@@ -10,7 +10,7 @@ func main() {
 	config.LoadEnv() 
 
 	port := config.GetEnv("PORT")
-	fmt.Printf("✅ App starting on port %s...\n", port)
+	fmt.Printf("App starting on port %s...\n", port)
 
 	
 }
